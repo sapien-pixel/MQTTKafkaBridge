@@ -1,10 +1,12 @@
-# mqttKafkaBridge
+# MQTTKafkaBridge
+# Updated Jack's Original MQTTKafkaBridge to Support Kafka Version 0.8.1.1
+# You can find the Original Bridge at https://github.com/jacklund/mqttKafkaBridge
 
 Bridge which consumes MQTT messages and republishes them on Kafka on the same topic.
 
 ## Usage
 
-    $ java -jar mqttKafkaBridge.jar [options...]
+    $ java -jar Bridge.jar [options...]
 
 Where `options` are:
 
@@ -28,3 +30,5 @@ If you don't specify any command-line options, it uses the following defaults:
 
     $ java -Dlog4j.configuration=file:///path/to/log4j.properties -jar mqttKafkaBridge.jar [options...]
 
+## Binary
+You can directly run the binary `Bridge.jar` which is available under Binary Folder. The binary build using Java Runtime 1.7.
