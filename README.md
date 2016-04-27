@@ -2,7 +2,7 @@
 # Updated Jack's Original MQTTKafkaBridge to Support Kafka Version 0.8.1.1
 # You can find the Original Bridge at https://github.com/jacklund/mqttKafkaBridge
 
-Bridge which consumes MQTT messages and republishes them on Kafka on the same topic.
+Bridge which consumes MQTT messages and republishes them on Kafka on the same topic. Kafka does not support '/' as the topic name.
 
 ## Usage
 
